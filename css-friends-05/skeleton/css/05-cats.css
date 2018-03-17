@@ -1,0 +1,81 @@
+/* PHASE 5: Cats */
+.content-header {
+  background-image: url("../cats.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 900px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  line-height: 1;
+}
+
+.content-header h1 {
+  color: #fff;
+  font-size: 36px;
+  text-shadow: 2px 2px #aaa;
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 10px;
+  font-weight: 300;
+}
+
+.content-header button {
+  background-color: #fff;
+  font-size: 16px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 700;
+  width: auto;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.content-header button:hover {
+  background-color: #eee;
+}
+
+.profile-picture a {
+  display: block;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: -100px;
+  position: relative;
+}
+
+.profile-info h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profile-info p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profile-nav ul {
+  font-weight: bold;
+}
+
+.profile-nav ul li {
+  font-weight: bold;
+  padding: 5px;
+  border-top: 1px solid #ccc;
+}
+
+.profile-nav ul li:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-nav ul li:hover {
+  background-color: #eee;
+}
